@@ -28,23 +28,34 @@
             </article>
             <article class="article">
                 <h3>The Git commands to create a project locally</h3>
-                <p class="article-text">- 
-                    Create a local directory:
-                    mkdir - my-project
-                    cd my-project
-                    Initialize a Git repository: 
-                    git init 
-                    Create files: echo/touch README.md
-                    Add files:
-                    git add . or git add filename for specific file
-                    Commit files:
-                    git commit -m "initial commit"
-                    Push to remote repository:
-                    git push -u origin main 
+                <p class="article-text">
+                    <ul>
+                        <p>Create a local directory:</p>
+                        <li><code>mkdir my-project</code></li>
+                        <li><code>cd my-project</code></li>
+                        <p>Initialize a Git repository to turn the project in to a Git project:</p>
+                        <li><code>git init</code></li> 
+                        <p>Create files: </p>
+                        <li><code>echo/touch "my-project" README.md</code></li>
+                        <p>Add files:</p>
+                        <li><code>git add . </code> or <code>git add "filename"</code> for specific file</li> 
+                        <p>Commit files:</p>
+                        <li><code>git commit -m "initial commit"</code></li>
+                   </ul>
+                </p>
+
+                <h3>Link a local repo to a remote repo</h3>
+                <p class="article-text">
+                    <ul>
+                        <p>Create a repository on GitHub:</p>
+                        <li>Go to your GitHub account and select "New repository". Give it a name and choose public. </li>
+                        <p>Link the local code to the remote repo:</p>
+                        <li>git branch -M main</li>
+                        <li>git remote add origin "https://..."</li>
+                        <li>git push -u origin main</li>                 
+                    </ul>
 
                 </p>
-                <h3>Link a local repo to a remote repo</h3>
-                <p class="article-text">List the Git commands needed to: 2Link a local repo to a remote repo </p>
             </article>
             <article class="article">
                 <h3>How other people can contribute to the project</h3>
