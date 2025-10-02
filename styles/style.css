@@ -25,6 +25,7 @@ body {
     height: 150px;
     background-color: var(--background-primary);
     color: var(--color-primary);
+    text-align: center;
 }
 
 .menu {
@@ -39,6 +40,11 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
