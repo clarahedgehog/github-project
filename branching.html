@@ -4,13 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branding Page</title>
+    <title>Branching Page</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+    <header class="header">
+        <h1>Branching Page</h1>
+        <p>Why is branching important and what are the most common Git Commands?</p>
+    </header>
 
-    <h1>Test</h1>
+    <nav class="menu">
+        <a href="index.html" class="menu__item">Home</a>
+        <a href="projectpage.html" class="menu__item">Project</a>
+        <a href="changes.html" class="menu__item">Changes</a>
+        <a href="branching.html" class="menu__item">Branching</a>
+        <a href="about.html" class="menu__item">About</a>
+    </nav>
+
+    <main class="main">
+        <div class="project-article">
+            <article class="article-content">
+                <h3 class="article-title">Why is branching important?</h3>
+                <p class="article-text">Branching means you diverge from the main line of development and continue to do
+                    work without messing with that main line. In many VCS tools, this is a somewhat expensive process,
+                    often requiring you to create a new copy of your source code directory, which can take a long time
+                    for large projects.
+                    <br><br>
+                    Why is it so special? The way Git branches is incredibly lightweight, making
+                    branching operations nearly instantaneous, and switching back and forth between branches generally
+                    just as fast. Unlike many other VCSs, Git encourages workflows that branch and merge often, even
+                    multiple times in a day. Understanding and mastering this feature gives you a powerful and unique
+                    tool and can entirely change the way that you develop.
+                </p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">How to create a branch:</h3>
+                <p class="article-text">
+                    <b>Creating a New Branch:</b>
+                    <br><br>
+                    What happens when you create a new branch? Well, doing so creates a new pointer for you to move
+                    around. Let’s say you want to create a new branch called testing. You do this with the git branch
+                    command:
+                    <br><br>
+                    <i>$ git branch testing</i>
+                    <br><br>
+                    This creates a new pointer to the same commit you’re currently on.
+                </p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">How to close a branch:</h3>
+                <p class="article-text">
+                    <b>Closing a Branch:</b>
+                    <br><br>
+                    You can have head branches automatically deleted after pull requests are merged in your repository.
+                    If the branch you want to delete is associated with an open pull request, you must merge or close
+                    the pull request before deleting the branch.
+                    If you delete a head branch after its pull request has been merged, GitHub checks for any open pull
+                    requests in the same repository that specify the deleted branch as their base branch. GitHub
+                    automatically updates any such pull requests, changing their base branch to the merged pull
+                    request's base branch.
+                    <br><br>
+                    <i>-d
+                        --delete</i>
+                    <br><br>
+                    Delete a branch. The branch must be fully merged in its upstream branch, or in HEAD if no upstream
+                    was set with --track or --set-upstream-to.
+                </p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Brianna, Clara, Sofia</p>
+    </footer>
 
 </body>
 
