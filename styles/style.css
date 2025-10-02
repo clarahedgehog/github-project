@@ -42,9 +42,25 @@ body {
     text-decoration: none;
 }
 
-.article {
+.project-article {
     display: flex;
     flex-direction: column;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.article-content {
+    background-color: var(--background-tertiary);
+    border: black solid 1px;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 24px;
+}
+
+.article-title {
+    text-align: center;
 }
 
 .content {
