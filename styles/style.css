@@ -27,6 +27,20 @@ body {
     color: var(--color-primary);
 }
 
+.menu {
+    background-color: var(--background-tertiary);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu__item {
+    color: var(--background-primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .content {
     display: flex;
     flex-grow: 1;
