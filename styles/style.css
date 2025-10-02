@@ -43,3 +43,18 @@ body {
     flex-grow: 1;
     padding: 24px;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info {
+    border: black solid 1px;
+    background-color: var(--background-tertiary);
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    padding: 16px;
+}
