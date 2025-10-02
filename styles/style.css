@@ -25,6 +25,42 @@ body {
     height: 150px;
     background-color: var(--background-primary);
     color: var(--color-primary);
+    text-align: center;
+}
+
+.menu {
+    background-color: var(--background-tertiary);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu__item {
+    color: var(--background-primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.project-article {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.article-content {
+    background-color: var(--background-tertiary);
+    border: black solid 1px;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 24px;
+}
+
+.article-title {
+    text-align: center;
 }
 
 .content {

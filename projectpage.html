@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Project page</h1>
+        <p>How to create a project</p>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html" class="menu__item">Home</a>
+        <a href="projectpage.html" class="menu__item">Project</a>
+        <a href="changes.html" class="menu__item">Changes</a>
+        <a href="branching.html" class="menu__item">Branching</a>
+        <a href="about.html" class="menu__item">About</a>
+    </nav>
+
+    <main class="main">
+        <div class="project-article">
+            <h2>Project page</h2>
+            <article class="article-content">
+                <h3 class="article-title">Remote repositories</h3>
+                <p class="article-text">Remote repositories are where your code is stored, and are necessary in
+                    collaborative coding. When you work with other people, you use remote repositories to push and pull
+                    data that you need when sharing work.</p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">How to create a project on GitHub</h3>
+                <p class="article-text">
+                    First, you need to create a GitHub account. Then you need to create a new repository: 
+                    <ul>
+                        <li>Click the plus icon on the top of the page.</li>
+                        <li>Select "New repository".</li>
+                        <li>Choose a name for your repository.</li>
+                        <li>Description - explain your project</li>
+                        <li>Make the repo Public (anyone can see) or Private (Collaborators need access)</li>
+                        <li>Click "Create repository" when you're done.</li>
+                    </ul>
+                </p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">The Git commands to create a project locally</h3>
+                <p class="article-text">
+                    <ul>
+                        <p>Create a local directory:</p>
+                        <li><code>mkdir my-project</code></li>
+                        <li><code>cd my-project</code></li>
+                        <p>Initialize a Git repository to turn the project in to a Git project:</p>
+                        <li><code>git init</code></li>
+                        <p>Create files: </p>
+                        <li><code>echo/touch "my-project" README.md</code></li>
+                        <p>Add files:</p>
+                        <li><code>git add . </code> or <code>git add "filename"</code> for specific file</li>
+                        <p>Commit files:</p>
+                        <li><code>git commit -m "initial commit"</code></li>
+                    </ul>
+                </p>
+            </article>
+            <article class="article-content">   
+                <h3 class="article-title">Link a local repo to a remote repo</h3>
+                <p class="article-text">
+                    <ul>
+                        <p>Create a repository on GitHub:</p>
+                        <li>Go to your GitHub account and select "New repository". Give it a name and choose public. </li>
+                        <p>Link the local code to the remote repo:</p>
+                        <li><code>git branch -M main</code></li>
+                        <li><code>git remote add origin "https://..."</code></li>
+                        <li><code>git push -u origin main</code></li>
+                    </ul>
+
+                </p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">How other people can contribute to the project</h3>
+                <p class="article-text">
+                    By creating a public repository, other people can join your project. You can work from different parts of the world and still work together. 
+                </p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Brianna, Clara, Sofia</p>
+    </footer>
+</body>
+
+</html>
