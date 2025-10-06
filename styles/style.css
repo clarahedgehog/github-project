@@ -20,6 +20,10 @@ body {
     height: 100%;
 }
 
+.header {
+    padding: 16px;
+}
+
 .header,
 .footer {
     height: 150px;
@@ -40,6 +44,11 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.active-page {
+    background-color: var(--background-primary);
+    color: var(--color-primary)
 }
 
 .project-article {
@@ -78,4 +87,17 @@ body {
     background-color: var(--background-secondary);
     flex-grow: 1;
     padding: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__item {
+        padding: 8px;
+    }
+
 }
