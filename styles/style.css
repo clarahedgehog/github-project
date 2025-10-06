@@ -46,6 +46,11 @@ body {
     text-decoration: none;
 }
 
+.menu__item:hover {
+    background-color: var(--background-primary);
+    color: var(--color-primary)
+}
+
 .active-page {
     background-color: var(--background-primary);
     color: var(--color-primary)
@@ -98,6 +103,12 @@ body {
 
     .menu__item {
         padding: 8px;
+    }
+
+
+    .active-page {
+        background-color: var(--background-primary);
+        color: var(--color-primary)
     }
 
 }
