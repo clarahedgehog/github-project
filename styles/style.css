@@ -111,6 +111,8 @@ body {
     flex-direction: column;
     margin: 24px;
     padding: 16px;
+}
+
 @media screen and (max-width: 768px) {
     .menu {
         padding: 16px;
