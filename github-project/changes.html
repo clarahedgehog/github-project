@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changes</title>
+    <link rel="stylesheet" href="./styles/changes.css">
+</head>
+
+<body class="page-changes">
+    <header class="header">
+        <h1>Here is changes</h1>
+        <nav class="menu">
+        <a href="./index.html" class="menu__item">Home</a>
+        <a href="" class="menu__item">Project</a>
+        <a href="./changes.html" class="menu__item">Changes</a>
+        <a href="./branding.html" class="menu__item">Branching</a>
+        <a href="./about.html" class="menu__item">About us</a>
+    </nav>
+    </header>
+
+    <main class="container"></main>
+        <img class="img" src="./images/12.jpg" alt="">
+
+        <h2>1-Pull latest base(develop)</h2>
+        <pre><code>git checkout develop
+git pull</code></pre>
+
+        <h2>2-Create a feature branch</h2>
+        <pre><code>git checkout -b feature/your name-changes</code></pre>
+
+        <h2>3-Edit stage commit</h2>
+        <pre><code>git status
+git add .
+git commit -m"feat:implement changes page"
+        </code></pre>
+
+        <h2>4 Push&open PR develop</h2>
+        <pre><code>git push -u origin feature</code></pre>
+
+
+        <h2>Keep your branch fresh</h2>
+        <pre><code>git checkout develop && git pull 
+git checkout feature
+git merge develop
+# resolve conflicts:
+#edit files to keep the right content,
+remove conflict markers
+git add &lt;file&lt;
+git commit -m"chore:resolve Merge conflict"
+git push</code></pre>
+        
+        <h2>Common errors</h2>
+        <div class="note">
+            <p><strong>Push rejected: </strong>run git pull,resolve conflicts,then git push.</p>
+
+        <P><strong>Cannot push to main: </strong>main maybe protected;open a PR into develop.</P>
+
+        <P><strong>Committed on wrong branch: </strong>switch to the correct branch and rede your change to there</P>
+        </div>
+
+        <h2>Personal"9 actions" checklist</h2>
+        <ul>
+            <li>Create a feature branch</li>
+            <li>Make 2-3 small commits</li>
+            <li>Push the branch</li>
+            <li>Open a PR to <code>develop</code></li>
+            <li>Request reviews & respond</li>
+            <li>Merge into<code>develop</code></li>
+            <li>Review 3 teamates'PRs</li>
+        </ul>
+
+        </section>
+    </main>
+    
+
+    <footer class="footer">
+        <p>&copy;Brianna, Clara, Sofia</p>
+    </footer>
+    
+</body>
+</html>
