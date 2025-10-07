@@ -5,13 +5,9 @@
     --color-primary: #DBBEA1;
 }
 
-* {
-    box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
-html {
-    height: 100vh;
-}
+html {height: 100vh;}
 
 body {
     display: flex;
@@ -20,26 +16,107 @@ body {
     height: 100%;
 }
 
-.header,
-.footer {
-    height: 150px;
+.header{
+    border-bottom:1px solid #DBBEA1;
     background-color: var(--background-primary);
-    color: var(--color-primary);
+    color:#DBBEA1;
+    text-align: center;
 }
 
-.content {
-    display: flex;
-    flex-grow: 1;
+.h1{
+    font-size: 4rem;
 }
 
-.sidebar {
-    background-color: var(--background-tertiary);
-    flex-basis: 25%;
-    padding: 24px;
+.h3{
+    text-align: center;
+    color:#DBBEA1;
 }
 
-.main {
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.header nav{
+    color:violet;
+    height:fit-content;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    padding:12px 16px;
+}
+
+.menu{
+    background-color:#DBBEA1;
+    height:120px;
+}
+
+.menu__item{
+    padding:.5rem .75rem;
+    border-radius:.5rem;
+    color:white;
+}
+
+.menu__item:hover{
+    background-color: #3F292B;
+    color:violet;
+}
+
+.container{
     background-color: var(--background-secondary);
     flex-grow: 1;
-    padding: 24px;
+    margin:0 auto;
+    padding:32px;
+}
+
+.grid{
+    display:grid;
+    gap:12px;
+}
+
+.grid-3{
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+}
+
+.card{
+    border:3px solid #3F292B;
+    background-color: #DBBEA1;
+    border-radius:12px;
+}
+
+.card-body{
+    padding:12px 14px;
+}
+
+
+/* changes.css*/
+
+body.page-changes{
+  display: flex;
+  flex-direction: column;
+}
+
+pre{
+    background:#3F292B;
+    color:white;
+    padding:12px;
+    border-radius:12px;
+    overflow-x:auto;
+}
+
+.note{
+    background: #DBBEA1;
+    border:2px solid#3F292B;
+    border-radius:12px;
+    padding:12px 8px;
+}
+
+.footer{
+    height:150px;
+    background-color:var(--background-primary);
+    color:var(--color-primary);
+    text-align:center;
+    padding:32px 15px;
 }
