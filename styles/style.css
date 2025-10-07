@@ -26,7 +26,6 @@ body {
 
 .header,
 .footer {
-    height: 150px;
     background-color: var(--background-primary);
     color: var(--color-primary);
     text-align: center;
