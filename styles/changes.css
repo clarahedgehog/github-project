@@ -25,12 +25,12 @@ body.page-changes{
 .header{
     border-bottom:1px solid #DBBEA1;
     background-color: var(--background-primary);
+    color: #DBBEA1;
+    text-align: center;
 }
 
 .header h1{
     font-size:5rem;
-    text-align:center;
-    color:white
 }
 
 .header nav{
