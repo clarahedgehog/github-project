@@ -43,6 +43,8 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
 }
 
 .menu__item:hover {
@@ -52,7 +54,9 @@ body {
 
 .active-page {
     background-color: var(--background-primary);
-    color: var(--color-primary)
+    color: var(--color-primary);
+    padding: 8px 12px;
+    border-radius: 8px;
 }
 
 .project-article {
