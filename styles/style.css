@@ -134,3 +134,55 @@ body {
     }
 
 }
+
+
+
+/*chages page.css*/
+
+.main {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  margin: 24px auto 64px;
+  padding: 16px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+
+.container {
+  background-color: var(--background-secondary);
+  flex-grow: 1;
+  padding: 24px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+pre,
+code {
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+pre {
+  background: #3F292B;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.note {
+  background: #DBBEA1;
+  border: 2px solid#3F292B;
+  border-radius: 12px;
+  padding: 12px 8px;
+}
+
