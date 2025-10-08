@@ -1,8 +1,8 @@
 :root {
-    --background-primary: #3F292B;
-    --background-secondary: #A37B73;
-    --background-tertiary: #DBBEA1;
-    --color-primary: #DBBEA1;
+    --background-primary: #F4ACB7;
+    --background-secondary: #FFCAD4;
+    --background-tertiary: #FFFFFF;
+    --color-primary: #FFFFFF;
 }
 
 * {
@@ -68,9 +68,13 @@ body {
     }
 }
 
+h2 {
+    color: var(--color-primary)
+}
+
 .article-content {
     background-color: var(--background-tertiary);
-    border: black solid 1px;
+    border: #F4ACB7 1px;
     border-radius: 8px;
     margin: 8px;
     padding: 24px;
@@ -78,6 +82,7 @@ body {
 
 .article-title {
     text-align: center;
+    color: var(--background-primary)
 }
 
 .content {
@@ -107,13 +112,16 @@ body {
 }
 
 .about-info {
-    border: black solid 1px;
+    border: #F4ACB7 1px;
     background-color: var(--background-tertiary);
-    border: black solid 1px;
     display: flex;
     flex-direction: column;
     margin: 24px;
     padding: 16px;
+}
+
+h3 {
+    color: #F4ACB7;
 }
 
 @media screen and (max-width: 768px) {
