@@ -164,7 +164,6 @@ img {
   display: block;
 }
 
-pre,
 code {
   font-family: monospace;
   font-size: 18px;
@@ -176,7 +175,13 @@ pre {
   color: white;
   padding: 12px;
   border-radius: 12px;
-  overflow-x: auto;
+  padding: 12px;
+
+  border-radius: 12px;
+  white-space: pre-wrap;     
+  word-break: break-word;   
+  overflow-wrap: anywhere; 
+
 }
 
 .note {
