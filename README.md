@@ -1,14 +1,14 @@
-#Git Guide
+# Git Guide
 Welcome to our GitHub project!
 
 This is our website where to learn about how to use GitHub.
 
-##Project Structure 
+## Project Structure 
 index.html
 projectpage.html
 changes.html
 brancjing.html
 about.html
 
-###Team members 
+### Team members 
 Clara, Sofia & Brianna 
