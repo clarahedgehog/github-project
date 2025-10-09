@@ -5,7 +5,6 @@ This is our website where you can learn how to use GitHub. This project is creat
 
 ## Link to the deployed version: 
 
-
 [The Live GitHub-Website] ()
 
 ## Project Structure 
@@ -32,3 +31,7 @@ This is our website where you can learn how to use GitHub. This project is creat
 3. Make your changes and commit
 4. Push the branch to the fork
 5. Open a new pull request
+
+## Licence 
+
+This project is open-source and available under the MIT License.
