@@ -5,7 +5,7 @@ This is our website where you can learn how to use GitHub. This project is creat
 
 ## Link to the deployed version: 
 
-[The Live GitHub-Website] ()
+[The Live GitHub-Website] (https://clarahedgehog.github.io/github-project/)
 
 ## Project Structure 
 
