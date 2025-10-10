@@ -5,7 +5,7 @@ This is our website where you can learn how to use GitHub. This project is creat
 
 ## Link to the deployed version: 
 
-[The Live GitHub-Website] (https://clarahedgehog.github.io/github-project/)
+[The Live GitHub-Website](https://clarahedgehog.github.io/github-project/)
 
 ## Project Structure 
 
@@ -19,9 +19,9 @@ This is our website where you can learn how to use GitHub. This project is creat
 
 ## Team members 
 
-- [Clara] (https://github.com/clarahedgehog) 
-- [Sofia] (https://github.com/sofiluran) 
-- [Brianna] (https://github.com/Mosssi)
+- [Clara](https://github.com/clarahedgehog) 
+- [Sofia](https://github.com/sofiluran) 
+- [Brianna](https://github.com/Mosssi)
 
 
 # How to contribute 
